@@ -1,0 +1,31 @@
+{
+	"repositories" : [
+		{
+			"type": "package",
+			"package": {
+				"name":        "wp-cli/php-cli-tools",
+				"type":        "library",
+				"description": "Console utilities for PHP",
+				"homepage":    "http://github.com/wp-cli/php-cli-tools",
+				"license":     "MIT",
+				"autoload": {
+					"psr-0": {
+						"cli": "lib/"
+					},
+					"files": [
+						"lib/cli/cli.php"
+					]
+				},
+				"version": "default",
+				"source" : {
+					"url": "https://github.com/wp-cli/php-cli-tools.git",
+					"type": "git",
+					"reference": "origin/master"
+				}
+			}
+		}
+	],
+	"require": {
+		"wp-cli/php-cli-tools": "dev-master"
+	}
+}
